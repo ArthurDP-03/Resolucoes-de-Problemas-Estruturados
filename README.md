@@ -1,2 +1,2 @@
-# Resolu-o-de-Problemas-Estruturados-
+# Resolucoes-de-Problemas-Estruturados
 Desenvolvimento de exercícios e projeto da matéria 
