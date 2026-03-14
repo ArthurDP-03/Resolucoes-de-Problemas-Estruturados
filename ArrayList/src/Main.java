@@ -5,6 +5,7 @@ public class Main {
 
         b.add(0, "teste");
         b.add(3, "loucura");
+        b.add("testeeeeeeeeeeeeee");
         System.out.println(b);
 
     for(int i = 0; i <= 9; i++){

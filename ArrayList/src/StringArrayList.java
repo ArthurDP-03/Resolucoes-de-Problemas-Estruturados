@@ -30,11 +30,19 @@ public class StringArrayList {
         return sb.toString();
     }
 
+    public void add(String string) {
+        add(size, string);
+    }
+
     public void add(int index, String string) {
         if (index < 0 || index > size) {
             System.out.println("Index invalido, negativo ou não existe.ARRUMA ESSA MERDA AMIGÃO");
             return;
         }
+//        Perguntar pra prof se pode usar assim:
+//        if (index < 0 || index > size) {
+//            throw new IndexOutOfBoundsException("Índice: " + index + ", Tamanho: " + size);
+//        }
 
         if (size + 1 >= capacity ) {
             capacity = capacity + (capacity / 2);
