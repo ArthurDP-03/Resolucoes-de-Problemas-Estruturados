@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea2ab83-25ec-4330-b64f-1bb256d77cdc" name="Changes" comment="loucura">
-      <change afterPath="$PROJECT_DIR$/src/ArrayList.java" afterDir="false" />
-    </list>
+    <list default="true" id="fea2ab83-25ec-4330-b64f-1bb256d77cdc" name="Changes" comment="mudando tudo amem" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,11 +75,28 @@
       <option name="project" value="LOCAL" />
       <updated>1773748190287</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mudando tudo amem">
+      <option name="closed" value="true" />
+      <created>1773751605879</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773751605879</updated>
+    </task>
+    <task id="LOCAL-00003" summary="mudando tudo amem">
+      <option name="closed" value="true" />
+      <created>1773752004925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773752004925</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="loucura" />
-    <option name="LAST_COMMIT_MESSAGE" value="loucura" />
+    <MESSAGE value="mudando tudo amem" />
+    <option name="LAST_COMMIT_MESSAGE" value="mudando tudo amem" />
   </component>
 </project>

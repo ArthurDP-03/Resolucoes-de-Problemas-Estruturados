@@ -93,7 +93,6 @@ public class ArrayList <T> {
 
     @Override
     public String toString() {
-        // Usamos StringBuilder para ser mais eficiente na concatenação de texto
         StringBuilder sb = new StringBuilder();
         sb.append("[");
 
