@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fea2ab83-25ec-4330-b64f-1bb256d77cdc" name="Changes" comment="loucura">
+      <change afterPath="$PROJECT_DIR$/src/ArrayList.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ArthurDP-03&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ArthurDP-03/Resolucoes-de-Problemas-Estruturados.git&quot;,
+    &quot;accountId&quot;: &quot;535aa317-7e62-4b78-b77a-36f2a6000573&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3B4S6rXnjBa1QVJQ9JEGOTbBM5h" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/OwnProjects/Resolucoes-de-Problemas-Estruturados",
+    "onboarding.tips.debug.path": "C:/OwnProjects/Resolucoes-de-Problemas-Estruturados/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fea2ab83-25ec-4330-b64f-1bb256d77cdc" name="Changes" comment="" />
+      <created>1773746676167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773746676167</updated>
+    </task>
+    <task id="LOCAL-00001" summary="loucura">
+      <option name="closed" value="true" />
+      <created>1773748190287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773748190287</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="loucura" />
+    <option name="LAST_COMMIT_MESSAGE" value="loucura" />
+  </component>
+</project>
