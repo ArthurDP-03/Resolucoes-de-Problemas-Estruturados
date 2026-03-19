@@ -111,5 +111,18 @@ public class ArrayList <T> {
         return sb.toString();
     }
 
+    public Object[] toArray() {
+        Object[] result = new Object[capacity];
+        int j = 0;
+
+        for (int i = 0; i < capacity; i++) {
+            if (data[i] != null) {
+                result[j++] = data[i];
+            }
+        }
+
+        return result;
+    }
+
 }
 

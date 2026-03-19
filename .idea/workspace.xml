@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea2ab83-25ec-4330-b64f-1bb256d77cdc" name="Changes" comment="mudando tudo amem" />
+    <list default="true" id="fea2ab83-25ec-4330-b64f-1bb256d77cdc" name="Changes" comment="mudando tudo amem">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/_ws/_5_semestre/Resolucoes-de-Problemas-Estruturados" value="3B4S6rXnjBa1QVJQ9JEGOTbBM5h" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,12 +35,12 @@
     &quot;assignee&quot;: &quot;ArthurDP-03&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ArthurDP-03/Resolucoes-de-Problemas-Estruturados.git&quot;,
-    &quot;accountId&quot;: &quot;535aa317-7e62-4b78-b77a-36f2a6000573&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ArthurDP-03/Resolucoes-de-Problemas-Estruturados.git",
+    "accountId": "e6e886bb-d98b-4de2-ad4d-66457cc2c521"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -52,13 +61,20 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/OwnProjects/Resolucoes-de-Problemas-Estruturados",
+    "last_opened_file_path": "C:/_ws/_5_semestre/Resolucoes-de-Problemas-Estruturados",
     "onboarding.tips.debug.path": "C:/OwnProjects/Resolucoes-de-Problemas-Estruturados/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.33" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="fea2ab83-25ec-4330-b64f-1bb256d77cdc" name="Changes" comment="" />
@@ -98,5 +114,13 @@
     <MESSAGE value="loucura" />
     <MESSAGE value="mudando tudo amem" />
     <option name="LAST_COMMIT_MESSAGE" value="mudando tudo amem" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
