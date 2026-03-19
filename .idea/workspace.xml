@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fea2ab83-25ec-4330-b64f-1bb256d77cdc" name="Changes" comment="mudando tudo amem">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +35,12 @@
     &quot;assignee&quot;: &quot;ArthurDP-03&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ArthurDP-03/Resolucoes-de-Problemas-Estruturados.git",
-    "accountId": "e6e886bb-d98b-4de2-ad4d-66457cc2c521"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ArthurDP-03/Resolucoes-de-Problemas-Estruturados.git&quot;,
+    &quot;accountId&quot;: &quot;e6e886bb-d98b-4de2-ad4d-66457cc2c521&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -65,7 +65,8 @@
     "onboarding.tips.debug.path": "C:/OwnProjects/Resolucoes-de-Problemas-Estruturados/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion"
   }
 }]]></component>
   <component name="SharedIndexes">
