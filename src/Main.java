@@ -37,30 +37,80 @@ public class Main {
 //            }
 //        }
 
-        Stack<String> stack = new Stack<>();
+//        Stack<String> stack = new Stack<>();
+//
+//        stack.push("Ana"); // teste PUSH
+//        stack.push("Bia");
+//        stack.push("Caio");
+//
+//        System.out.println("\nStack: " + stack);
+//
+//        System.out.println("\nTopo: " + stack.top()); // teste TOP
+//
+//        System.out.println("\nPop: " + stack.pop()); // teste POP
+//        System.out.println("\nApós pop: " + stack);
+//
+//        System.out.println("\nTamanho: " + stack.size()); // teste SIZE
+//
+//        System.out.println("\nEstá vazia? " + stack.isEmpty()); // teste IS EMPTY
+//
+//        System.out.println("\nArray:");
+//        Object[] arr = stack.toArray();// teste TO ARRAY
+//        for (Object o : arr) {
+//            System.out.println(o);
+//        }
+//
+//        stack.clear(); // teste CLEAR
+//        System.out.println("\nApós clear: " + stack);
 
-        stack.push("Ana"); // teste PUSH
-        stack.push("Bia");
-        stack.push("Caio");
+        Queue<Integer> fila = new Queue<>();
 
-        System.out.println("\nStack: " + stack);
+        // 🔹 Teste isEmpty
+        System.out.println("Fila está vazia? " + fila.isEmpty());
 
-        System.out.println("\nTopo: " + stack.top()); // teste TOP
+        // 🔹 Teste enqueue
+        fila.enqueue(10);
+        fila.enqueue(20);
+        fila.enqueue(30);
 
-        System.out.println("\nPop: " + stack.pop()); // teste POP
-        System.out.println("\nApós pop: " + stack);
+        System.out.println("Fila após enqueue: " + fila);
 
-        System.out.println("\nTamanho: " + stack.size()); // teste SIZE
+        // 🔹 Teste size
+        System.out.println("Tamanho da fila: " + fila.size());
 
-        System.out.println("\nEstá vazia? " + stack.isEmpty()); // teste IS EMPTY
+        // 🔹 Teste front
+        System.out.println("Primeiro elemento (front): " + fila.front());
 
-        System.out.println("\nArray:");
-        Object[] arr = stack.toArray();// teste TO ARRAY
-        for (Object o : arr) {
-            System.out.println(o);
+        // 🔹 Teste toArray
+        Object[] array = fila.toArray();
+        System.out.print("Fila em array: ");
+        for (Object obj : array) {
+            System.out.print(obj + " ");
         }
+        System.out.println();
 
-        stack.clear(); // teste CLEAR
-        System.out.println("\nApós clear: " + stack);
+        // 🔹 Teste dequeue
+        System.out.println("Removido (dequeue): " + fila.dequeue());
+        System.out.println("Fila após dequeue: " + fila);
+
+        System.out.println("Removido (dequeue): " + fila.dequeue());
+        System.out.println("Fila após dequeue: " + fila);
+
+        // 🔹 Teste front novamente
+        System.out.println("Novo front: " + fila.front());
+
+        // 🔹 Teste clear
+        fila.clear();
+        System.out.println("Fila após clear: " + fila);
+
+        // 🔹 Teste isEmpty novamente
+        System.out.println("Fila está vazia? " + fila.isEmpty());
+
+        // 🔹 Teste erro (opcional)
+        try {
+            fila.dequeue();
+        } catch (RuntimeException e) {
+            System.out.println("Erro ao remover: " + e.getMessage());
+        }
     }
 }
