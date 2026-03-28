@@ -14,4 +14,15 @@ public class ImageHandler {
         File arquivo = new File(caminho);
         ImageIO.write(imagem, "png", arquivo);
     }
+
+    public static void limparFrames(String pasta) {
+        File diretorio = new File(pasta);
+        File[] arquivos = diretorio.listFiles();
+
+        if (arquivos != null) {
+            for (File arquivo : arquivos) {
+                arquivo.delete();
+            }
+        }
+    }
 }

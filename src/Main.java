@@ -3,18 +3,13 @@ import java.awt.Color;
 
 public class Main {
     public static void main(String[] args) throws Exception {
+        ImageHandler.limparFrames("src/images/frames_queue");
+        ImageHandler.limparFrames("src/images/frames_stack");
+        BufferedImage imageQueue = ImageHandler.carregar("src/images/pixelart.png");
+        BufferedImage imageStack = ImageHandler.carregar("src/images/pixelart.png");
 
-        BufferedImage imagem = ImageHandler.carregar("src/images/pixelart.png");
-
-        System.out.println("Largura: " + imagem.getWidth());
-        System.out.println("Altura: " + imagem.getHeight());
-        int cor = imagem.getRGB(200, 200);
-        Color c = new Color(cor, true);
-        System.out.println("R: " + c.getRed());
-        System.out.println("G: " + c.getGreen());
-        System.out.println("B: " + c.getBlue());
-        System.out.println("A: " + c.getAlpha());
-
-        ImageHandler.salvar(imagem, "src/images/pixelartNova.png");
+        FloodFill floodFill = new FloodFill();
+        floodFill.paintQueue(imageQueue, 32, 32, new Color(198, 152, 59));
+        floodFill.paintStack(imageStack, 32, 32, new Color(198, 152, 59));
     }
 }
