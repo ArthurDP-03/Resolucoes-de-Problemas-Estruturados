@@ -15,5 +15,6 @@ public class Main {
         System.out.println("B: " + c.getBlue());
         System.out.println("A: " + c.getAlpha());
 
+        ImageHandler.salvar(imagem, "src/images/pixelartNova.png");
     }
 }

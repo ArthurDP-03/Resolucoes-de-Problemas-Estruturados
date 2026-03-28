@@ -9,4 +9,9 @@ public class ImageHandler {
         BufferedImage imagem = ImageIO.read(arquivo);
         return imagem;
     }
+
+    public static void salvar(BufferedImage imagem, String caminho) throws IOException {
+        File arquivo = new File(caminho);
+        ImageIO.write(imagem, "png", arquivo);
+    }
 }
