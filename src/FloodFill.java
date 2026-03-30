@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class FloodFill {
 
-    public static void paintStack(BufferedImage image, int startX, int startY, Color newColor) throws IOException {
+    public static void paintStack(BufferedImage image, int startX, int startY, Color newColor, ImageViewer viewer) throws IOException {
         int width = image.getWidth();
         int height = image.getHeight();
 
@@ -29,6 +29,12 @@ public class FloodFill {
             if(image.getRGB(x, y) != initialColor) continue;
 
             image.setRGB(x, y, newColor.getRGB());
+            viewer.repaint();
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
 
             Pixel up = new Pixel(x, y - 1);
             Pixel right = new Pixel(x + 1, y);
@@ -48,7 +54,7 @@ public class FloodFill {
         ImageHandler.salvar(image, "src/images/frames_stack/frame_final.png");
     }
 
-    public static void paintQueue(BufferedImage image, int startX, int startY, Color newColor) throws IOException {
+    public static void paintQueue(BufferedImage image, int startX, int startY, Color newColor, ImageViewer viewer) throws IOException {
         int width = image.getWidth();
         int height = image.getHeight();
 
@@ -72,6 +78,14 @@ public class FloodFill {
             if(image.getRGB(x, y) != initialColor) continue;
 
             image.setRGB(x, y, newColor.getRGB());
+            viewer.repaint();
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+
 
             Pixel up = new Pixel(x, y - 1);
             Pixel right = new Pixel(x + 1, y);
