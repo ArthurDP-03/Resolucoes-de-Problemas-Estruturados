@@ -17,10 +17,16 @@ public class Main {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
 
+        Object[] options = {"Queue", "Stack"};
+        int choice = JOptionPane.showOptionDialog(frame, "Choose method:", "Flood Fill", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
+
         new Thread(() -> {
             try {
-//                FloodFill.paintQueue(image, 32, 32, new Color(198, 152, 59), viewer);
-                FloodFill.paintStack(image, 32, 32, new Color(198, 152, 59), viewer);
+                if (choice == 0) {
+                    FloodFill.paintQueue(image, 32, 32, new Color(198, 152, 59), viewer);
+                } else {
+                    FloodFill.paintStack(image, 32, 32, new Color(198, 152, 59), viewer);
+                }
             } catch (Exception e) {
                 e.printStackTrace();
             }
