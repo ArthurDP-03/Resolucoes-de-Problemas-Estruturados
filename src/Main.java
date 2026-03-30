@@ -4,8 +4,9 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        ImageHandler.deletarArquivo("src/images/frame_final_stack.png");
-        ImageHandler.deletarArquivo("src/images/frame_final_queue.png");
+        ImageHandler.deletarArquivo("src/images/frame_final.png");
+        ImageHandler.limparFrames("src/images/frames");
+
 
         BufferedImage image = ImageHandler.carregar("src/images/pixelart.png");
 
@@ -31,6 +32,5 @@ public class Main {
                 e.printStackTrace();
             }
         }).start();
-        
     }
 }

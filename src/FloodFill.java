@@ -18,6 +18,7 @@ public class FloodFill {
 
 
         int initialColor = image.getRGB(startX, startY);
+        int count = 0;
         while (!stack.isEmpty()){
             Pixel currentPixel = stack.pop();
 
@@ -44,8 +45,14 @@ public class FloodFill {
             stack.push(right);
             stack.push(down);
             stack.push(left);
+
+            if (count % 100 == 0 && count < 10000) {
+                ImageHandler.salvar(image, "src/images/frames/frame_" + count + ".png");
+            }
+            count++;
         }
-        ImageHandler.salvar(image, "src/images/frame_final_stack.png");
+
+        ImageHandler.salvar(image, "src/images/frame_final.png");
         System.exit(0);
     }
 
@@ -62,6 +69,7 @@ public class FloodFill {
         queue.enqueue(pixel);
 
         int initialColor = image.getRGB(startX, startY);
+        int count = 0;
         while (!queue.isEmpty()){
             Pixel currentPixel = queue.dequeue();
 
@@ -90,9 +98,12 @@ public class FloodFill {
             queue.enqueue(right);
             queue.enqueue(down);
             queue.enqueue(left);
-
+            if (count % 100 == 0 && count < 10000) {
+                ImageHandler.salvar(image, "src/images/frames/frame_" + count + ".png");
+            }
+            count++;
         }
-        ImageHandler.salvar(image, "src/images/frame_final_queue.png");
+        ImageHandler.salvar(image, "src/images/frame_final.png");
         System.exit(0);
     }
 
