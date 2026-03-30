@@ -15,14 +15,19 @@ public class ImageHandler {
         ImageIO.write(imagem, "png", arquivo);
     }
 
-    public static void limparFrames(String pasta) {
-        File diretorio = new File(pasta);
-        File[] arquivos = diretorio.listFiles();
+//    public static void limparFrames(String pasta) {
+//        File diretorio = new File(pasta);
+//        File[] arquivos = diretorio.listFiles();
+//
+//        if (arquivos != null) {
+//            for (File arquivo : arquivos) {
+//                arquivo.delete();
+//            }
+//        }
+//    }
 
-        if (arquivos != null) {
-            for (File arquivo : arquivos) {
-                arquivo.delete();
-            }
-        }
+    public static void deletarArquivo(String caminho) {
+        File arquivo = new File(caminho);
+        arquivo.delete();
     }
 }

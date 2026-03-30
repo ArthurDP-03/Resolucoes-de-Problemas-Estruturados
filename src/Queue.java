@@ -1,4 +1,3 @@
-// first in first out
 public class Queue<T> {
 
     protected Node<T> first;

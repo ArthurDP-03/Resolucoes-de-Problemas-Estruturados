@@ -4,8 +4,8 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        ImageHandler.limparFrames("src/images/frames_queue");
-        ImageHandler.limparFrames("src/images/frames_stack");
+        ImageHandler.deletarArquivo("src/images/frame_final_stack.png");
+        ImageHandler.deletarArquivo("src/images/frame_final_queue.png");
 
         BufferedImage image = ImageHandler.carregar("src/images/pixelart.png");
 
