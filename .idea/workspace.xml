@@ -5,9 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fea2ab83-25ec-4330-b64f-1bb256d77cdc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ImageViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FloodFill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FloodFill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ImageHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_1000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_1100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_1200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_1300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_1400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_1500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_1600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_1700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_1800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_900.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_queue/frame_final.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_1000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_1100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_1200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_1300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_1400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_1500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_1600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_1700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_1800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_500.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_800.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_900.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/frames_stack/frame_final.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -45,7 +45,13 @@ public class FloodFill {
             stack.push(right);
             stack.push(down);
             stack.push(left);
+
+            if (count % 100 == 0 && count < 10000) {
+                ImageHandler.salvar(image, "src/images/frames_stack/frame_" + count + ".png");
+            }
+            count++;
         }
+        ImageHandler.salvar(image, "src/images/frames_stack/frame_final.png");
     }
 
     public static void paintQueue(BufferedImage image, int startX, int startY, Color newColor, ImageViewer viewer) throws IOException {
@@ -79,6 +85,8 @@ public class FloodFill {
                 e.printStackTrace();
             }
 
+
+
             Pixel up = new Pixel(x, y - 1);
             Pixel right = new Pixel(x + 1, y);
             Pixel down = new Pixel(x, y + 1);
@@ -88,8 +96,15 @@ public class FloodFill {
             queue.enqueue(right);
             queue.enqueue(down);
             queue.enqueue(left);
+
+            if (count % 100 == 0 && count < 10000) {
+                ImageHandler.salvar(image, "src/images/frames_queue/frame_" + count + ".png");
+            }
+            count++;
         }
+        ImageHandler.salvar(image, "src/images/frames_queue/frame_final.png");
     }
+
 
     private static boolean pixelExists(int x, int y, int width, int height) {
         return x >= 0 && x < width && y >= 0 && y < height;

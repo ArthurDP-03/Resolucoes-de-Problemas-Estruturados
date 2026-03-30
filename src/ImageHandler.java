@@ -9,4 +9,20 @@ public class ImageHandler {
         BufferedImage imagem = ImageIO.read(arquivo);
         return imagem;
     }
+
+    public static void salvar(BufferedImage imagem, String caminho) throws IOException {
+        File arquivo = new File(caminho);
+        ImageIO.write(imagem, "png", arquivo);
+    }
+
+    public static void limparFrames(String pasta) {
+        File diretorio = new File(pasta);
+        File[] arquivos = diretorio.listFiles();
+
+        if (arquivos != null) {
+            for (File arquivo : arquivos) {
+                arquivo.delete();
+            }
+        }
+    }
 }
