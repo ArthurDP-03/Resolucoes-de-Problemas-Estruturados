@@ -46,6 +46,7 @@ public class FloodFill {
             stack.push(left);
         }
         ImageHandler.salvar(image, "src/images/frame_final_stack.png");
+        System.exit(0);
     }
 
     public static void paintQueue(BufferedImage image, int startX, int startY, Color newColor, ImageViewer viewer) throws IOException {
@@ -92,6 +93,7 @@ public class FloodFill {
 
         }
         ImageHandler.salvar(image, "src/images/frame_final_queue.png");
+        System.exit(0);
     }
 
 
