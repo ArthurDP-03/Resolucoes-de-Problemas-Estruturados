@@ -19,8 +19,8 @@ public class Main {
 
         new Thread(() -> {
             try {
-                FloodFill.paintQueue(image, 32, 32, new Color(198, 152, 59), viewer);
-//                FloodFill.paintStack(image, 32, 32, new Color(198, 152, 59), viewer);
+//                FloodFill.paintQueue(image, 32, 32, new Color(198, 152, 59), viewer);
+                FloodFill.paintStack(image, 32, 32, new Color(198, 152, 59), viewer);
             } catch (Exception e) {
                 e.printStackTrace();
             }
