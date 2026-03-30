@@ -19,7 +19,7 @@ public class Main {
         frame.setVisible(true);
 
         Object[] options = {"Queue", "Stack"};
-        int choice = JOptionPane.showOptionDialog(frame, "Choose method:", "Flood Fill", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
+        int choice = JOptionPane.showOptionDialog(frame, "Escolha o método:", "Flood Fill", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
 
         new Thread(() -> {
             try {
